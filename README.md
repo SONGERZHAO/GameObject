@@ -30,11 +30,10 @@ roll_a_ball_sez
       　　　　Sort()将list进行排序  
       　　　　Write()给list中的数据写入文件中  
       　　　　read()将文件中的信息读入到list中  
-      游戏排行榜界面
-    1.Charts.cs
-        将list中的数据展示到三个Text中，分别为排名，姓名，游戏时间  
-      游戏界面
-    1.CameraScript.cs
+      游戏排行榜界面  
+      1.Charts.cs  
+      　　将list中的数据展示到三个Text中，分别为排名，姓名，游戏时间  
+      游戏界面1.CameraScript.cs
         控制摄像机与玩家之间的距离，将距离设置为一固定值，防止玩家镜头旋转
     2.Pick_food.cs
         控制小方块的旋转

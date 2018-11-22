@@ -32,16 +32,16 @@ roll_a_ball_sez
       　　　　read()将文件中的信息读入到list中  
       游戏排行榜界面  
       1.Charts.cs  
-      将list中的数据展示到三个Text中，分别为排名，姓名，游戏时间  
+      　　将list中的数据展示到三个Text中，分别为排名，姓名，游戏时间  
       游戏界面  
-      1.CameraScript.cs  
-      控制摄像机与玩家之间的距离，将距离设置为一固定值，防止玩家镜头旋转  
-      2.Pick_food.cs  
-      控制小方块的旋转  
-      3.playerScript.cs  
-      控制游戏玩家的按键 W A S D Esc  
-      控制小方块与玩家的碰撞  
-      控制游戏过程中的 时间 已经吃掉小方块个数  
-      控制游戏结束时、暂停时的panel的SetActive()  
-      控制游戏结束时、暂停时的button、InputField
+      2.CameraScript.cs  
+      　　控制摄像机与玩家之间的距离，将距离设置为一固定值，防止玩家镜头旋转  
+      3.Pick_food.cs  
+      　　控制小方块的旋转  
+      4.playerScript.cs  
+      　　控制游戏玩家的按键 W A S D Esc  
+      　　控制小方块与玩家的碰撞  
+      　　控制游戏过程中的 时间 已经吃掉小方块个数  
+      　　控制游戏结束时、暂停时的panel的SetActive()  
+      　　控制游戏结束时、暂停时的button、InputField
         

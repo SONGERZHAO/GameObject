@@ -14,8 +14,8 @@
       　　　button 在分辨率 640*400以上失效推测时与瞄点有关  
 　　不足：  
       　　　在场景的切换过程中未加入动画，排行信息在本地以text明文存储，未采用加密方式
-
-游戏开始界面  
+  
+### 游戏开始界面  
 1.Button_Click.cs  
 　　控制游戏开始场景,同时加载游戏数据  
 　　运用到panel背景，image图片，以及button  
@@ -30,15 +30,15 @@
       　　　　Sort()将list进行排序  
       　　　　Write()给list中的数据写入文件中  
       　　　　read()将文件中的信息读入到list中  
-      游戏排行榜界面  
-      1.Charts.cs  
+### 游戏排行榜界面  
+1.Charts.cs  
       　　将list中的数据展示到三个Text中，分别为排名，姓名，游戏时间  
-      游戏界面  
-      2.CameraScript.cs  
+### 游戏界面  
+1.CameraScript.cs  
       　　控制摄像机与玩家之间的距离，将距离设置为一固定值，防止玩家镜头旋转  
-      3.Pick_food.cs  
+2.Pick_food.cs  
       　　控制小方块的旋转  
-      4.playerScript.cs  
+3.playerScript.cs  
       　　控制游戏玩家的按键 W A S D Esc  
       　　控制小方块与玩家的碰撞  
       　　控制游戏过程中的 时间 已经吃掉小方块个数  
